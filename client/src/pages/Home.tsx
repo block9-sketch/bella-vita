@@ -140,7 +140,7 @@ export default function Home() {
         }}
       >
         <a href="#" style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: "1.6rem", fontWeight: 600, color: "#fff", letterSpacing: "0.08em", textDecoration: "none" }}>
-          Bella <span style={{ color: "#c9a84c" }}>Vita</span>
+          Sample Bella <span style={{ color: "#c9a84c" }}>Vita</span>
         </a>
         <ul style={{ display: "flex", gap: 36, listStyle: "none", margin: 0, padding: 0 }} className="hidden md:flex">
           {[["コンセプト", "concept"], ["メニュー", "menu"], ["ギャラリー", "gallery"], ["アクセス", "access"]].map(([label, id]) => (
@@ -387,7 +387,7 @@ export default function Home() {
                 特別な日のディナーや接待など、大切なシーンに寄り添います。ご予約はウェブフォームまたはお電話にて承っております。
               </p>
               {[
-                { label: "電話", value: "03-1234-5678" },
+                { label: "電話", value: "03-1234-〇〇〇〇" },
                 { label: "営業時間", value: "ランチ 11:30〜14:00 (L.O. 13:30)\nディナー 18:00〜22:30 (L.O. 22:00)" },
                 { label: "定休日", value: "毎週月曜日（祝日の場合は翌火曜日）" },
                 { label: "席数", value: "40席（個室あり・要予約）" },
