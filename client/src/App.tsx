@@ -9,8 +9,11 @@ import Home from "./pages/Home";
 function Router() {
   return (
     <Switch>
-      <Route path={"/"} component={Home} />
-      <Route path={"/404"} component={NotFound} />
+      {/* どのパターンでアクセスされても確実にHomeを表示させるための保険 */}
+      <Route path="/" component={Home} />
+      <Route path="/bella-vita" component={Home} />
+      <Route path="/bella-vita/" component={Home} />
+      <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
     </Switch>
   );
